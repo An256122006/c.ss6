@@ -7,9 +7,9 @@ int main()
 	for (int i=1; i<=d; i++)
 	{
 		c= a + b;
+		printf ("%d\n",c); 
 		a=b;
 		b=c; 
 	 } 
-	 printf ("so dau tien là: %d",c-(c-1));
 	 return 0; 
  } 
